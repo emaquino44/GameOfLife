@@ -11,9 +11,8 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-
+                <Route exact path='/' component={home} />
                 <Route path='/Grid' component={Grid} />
-                 <Route exact path='/' component={home} />
 
             </div>
         );
